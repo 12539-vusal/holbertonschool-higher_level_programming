@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """Bu kod atributlari liste cevirir"""
-    return dir(obj)
+    return vars(obj)
