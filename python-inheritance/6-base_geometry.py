@@ -5,4 +5,4 @@
 class BaseGeometry():
     """salam"""
     def area(self):
-        raise Exception("ERror var gaga")
+        raise Exception("area() is not implemented")
