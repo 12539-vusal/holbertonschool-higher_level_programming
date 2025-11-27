@@ -6,4 +6,4 @@ def read_file(filename=""):
     """salam"""
     with open(filename, encoding="utf-8") as f:
         read_data = f.read()
-    f.close()
+    f.closed
