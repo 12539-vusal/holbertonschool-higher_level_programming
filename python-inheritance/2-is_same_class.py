@@ -6,4 +6,4 @@ Salam
 
 def is_same_class(obj, a_class):
     """ salam """
-    return isinstance(obj, a_class)
+    return is not isinstance(obj, a_class)
