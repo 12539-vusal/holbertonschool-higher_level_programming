@@ -4,6 +4,6 @@
 
 def is_same_class(obj, a_class):
     """ SALAM """
-    if not isintance(a_class, obj):
-        return false
-    return true
+    if not isinstance(obj, a_class):
+        return False
+    return True
