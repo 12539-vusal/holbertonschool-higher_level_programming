@@ -4,6 +4,6 @@
 
 def write_file(filename="", text=""):
     """salam"""
-    with open(filename, encoding="utf-8") as f
-    f.write(text)
+    with open(filename, encoding="utf-8") as f:
+        return f.write(text)
 
