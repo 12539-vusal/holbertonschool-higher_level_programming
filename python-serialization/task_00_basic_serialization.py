@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """salam"""
 
+import json
+
 
 def serialize_and_save_to_file(data, filename):
     """salam"""
