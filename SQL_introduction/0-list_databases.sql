@@ -1,2 +1,2 @@
-#salam
+--salam
 show databases;
