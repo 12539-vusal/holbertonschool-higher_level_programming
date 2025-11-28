@@ -1,2 +1,2 @@
 -- salam
-UPDATE second_table set id = 12 WHERE name = "Bob";
+UPDATE second_table set id = 10 WHERE name = "Bob";
