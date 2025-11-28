@@ -1,5 +1,5 @@
 -- salam
-CRATE TABLE first_table(
+CRATE TABLE IF NOT EXISTS first_table(
 	id INT;
 	NAME VARCHAR(256)
-)
+);
