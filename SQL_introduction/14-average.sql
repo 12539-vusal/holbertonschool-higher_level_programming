@@ -1,2 +1,2 @@
 -- salam
-SELECT AVERAGE(*) FROM second_table;
+SELECT AVERAGE(score) FROM second_table;
