@@ -1,18 +1,19 @@
 #!/usr/bin/python3
-"""salam"""
+""" Module that defines the class Student
+"""
 
 
 class Student:
-    """salam"""
-    
+    """ Class to create student instances """
+
     def __init__(self, first_name, last_name, age):
-        """salam"""
+        """ Special method to initialize """
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self, attrs=None):
-        """salam"""
+        """ Method that returns directory description """
         obj = self.__dict__.copy()
         if type(attrs) is list:
 
@@ -31,6 +32,6 @@ class Student:
         return obj
 
     def reload_from_json(self, json):
-        """salam"""
+        """ Replaces all attributes of the Student instance """
         for atr in json:
             self.__dict__[atr] = json[atr]
