@@ -1,5 +1,4 @@
--- List privileges for user_0d_1
-SHOW GRANTS FOR 'user_0d_1'@'localhost';
-
--- List privileges for user_0d_2
-SHOW GRANTS FOR 'user_0d_2'@'localhost';
+-- sal
+CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
+GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost';
+FLUSH PRIVILEGES;
