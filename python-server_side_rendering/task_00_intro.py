@@ -57,3 +57,8 @@ def generate_invitations(template, attendees):
     except Exception as e:
         print(f"{e} found")
         return
+
+
+        
+
+
